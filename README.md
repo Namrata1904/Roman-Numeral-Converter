@@ -7,7 +7,9 @@ Prerequisite - Node.js, Angular CLI
 
 Instruction to run the Library roman-numerals: \Roman-Numeral-Converter\projects\roman-numerals
 1. ng build roman-numerals (When using with this application)
+
 (OR)
+
 1.npm publish (In case we need to use this library as an npm)
 2.Import the library's service RomanNumeralsService in the component required.
 
