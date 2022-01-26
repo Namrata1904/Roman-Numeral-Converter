@@ -1,0 +1,13 @@
+<div class="content" role="main">
+  <h4> Arabic to Roman conversion</h4>
+  <p>Enter Arabic number: <input type="number" [formControl]=romanNumberValue/>
+    <button (click)=submitNumber()> Convert</button>
+  </p>
+  <p>Result: <span id="result">{{ arabicResult }}</span></p>
+
+  <h4> Roman to Arabic conversion</h4>
+  <p>Enter Roman number: <input type="text" [formControl]=arabicNumberValue/>
+    <button (click)=submitRoman()> Convert</button>
+  </p>
+  <p>Result: <span id="result">{{ romanResult }}</span></p>
+</div>
